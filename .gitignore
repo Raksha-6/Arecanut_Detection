@@ -1,0 +1,27 @@
+# datasets, training runs and model files (share models through GitHub Releases instead)
+*.pt
+*_ncnn_model/
+*.zip
+datasets/
+runs/
+roboflow_clean/
+recordings/
+field/
+field_captures/
+field_sharp/
+negatives/
+blur_tests/
+*.mp4
+*.h264
+*.jpg
+*.jpeg
+*.png
+!docs/*.png
+!docs/*.jpg
+# python
+__pycache__/
+*.pyc
+.venv/
+# secrets
+.env
+*api_key*

@@ -1,0 +1,8 @@
+# Raspberry Pi 5 (64-bit Raspberry Pi OS). Picamera2 comes from apt, not pip:
+#   sudo apt install -y python3-picamera2
+#   python3 -m venv --system-site-packages ~/yoloenv
+#   ~/yoloenv/bin/pip install -r requirements-pi.txt
+ultralytics
+ncnn
+lap
+pymavlink
